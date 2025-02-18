@@ -1,0 +1,7 @@
+- name: Deploy Microservices
+  hosts: localhost
+  tasks:
+    - name: Pull Backend Docker Image
+      command: docker pull mynamespace15/backend-app:1.0
+
+
